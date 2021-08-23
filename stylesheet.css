@@ -148,31 +148,39 @@ h3{
         flex-direction: column;
     }
 }
+
 .aboutMe{
+    background-image:url("/home/laura/Desktop/Website/images/frontpage2.jpg"); 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */    
+    overflow:hidden;
+    padding:100px 0;
+
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.p{
+    font-size: 13px;
+    line-height: start;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills{
     display: flex;
-    margin-top: 80px;
-}
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-
-}
-
-.in-flex{
-    flex: 1;
-    padding: 25px;
-
-}
-.in-flex:first-child{
-    flex: 2;
-    padding: 25px;
-    
-    
-}
-.in-flex div{
-    padding: 25px;
-    background: rgb(184, 159, 130);
-    
-    
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
 }
