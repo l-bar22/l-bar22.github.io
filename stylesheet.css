@@ -151,11 +151,11 @@ h3{
 
 .aboutMe{
     background-image:url("/home/laura/Desktop/Website/images/frontpage2.jpg"); 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: left; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */    
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: cover;     
     overflow:hidden;
     padding:100px 0;
 
@@ -184,3 +184,29 @@ h3{
     font-weight: 700;
     font-size: 13px;
 }
+.contactinfo{
+    margin-top: auto;
+    background-color: black;
+}
+.cinfo{
+    align-content:center;
+
+}
+.cinfo h4{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.cinfo p{
+    text-align: center;
+
+}
+.fab fa-linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.icons{
+    text-align: center;
+}
+
