@@ -3,22 +3,23 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
       <title>Portfolio web</title>
-      <link rel="stylesheet" href="stylesheet.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-
+  linke    <link rel="stylesheet" href="stylesheet.css">
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
     <section class="header">
       <nav>
-        <a href="index.html"><img src="images/frontpage2.jpg"></a>
+        
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ion-icon name="close-outline" onclick="hideMenu"></ion-icon>
+          
 
           <ul> 
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">RESUME</a></li>
+            <li><a href="#index">HOME</a></li>
+            <li><a href="#aboutMe">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contactInfo">CONTACT</a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -30,57 +31,71 @@
       </div>
 
     </section>
-<!--Projects section-->
+
+
+
+<!--About me section-->  
+<section class="aboutMe1">
+  <div class="aboutMe">
+    <div class="inner-container">
+      <h1><a name="aboutMe">About Me</a></h1>
+      <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="skills">
+        <span>Web Design</span>
+        <span>Front-End Development</span>
+        <span>Digital Analysis</span>
+      </div>
+  </div>
+  
+  </section>
+
+  <!--Projects section-->
 
 
 <section class="projects">
-  <h1>Projects</h1>
+  <h1><a name="projects">Projects</a></h1>
   <p>gtuijiewtgppeteoigjop</p>
   <div class="row">
     <div class="course-col">
       <h3>office</h3>
       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+      
     </div>
       <div class="course-col">
         <h3>outdatedios</h3>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
       </div>
         <div class="course-col">
           <h3>Plastics</h3>
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          
         </div>
 
   </div>
 </section>
 
-
-<!--About me section-->  
-<section class="aboutMe">
-  <div class="inner-container">
-    <h1>About Me</h1>
-    <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <div class="skills">
-      <span>Web Design</span>
-      <span>Front-End Development</span>
-      <span>Digital Analysis</span>
-    </div>
-  </div>
-  </section>
-
   <!--Contact-->
   <section class="contactInfo">
     <div class="cinfo">
-      <h4>Contact Info</h4>
-      <p>This website has been made in a responsive way using HTML,CSS and JS.</p>
-      <i class="fab fa-linkedin"><link rel="linkedinpage"href=""></i>
-      <i class="fab fa-github"><link rel="githubpage" href="https://github.com/laura-barahona22"></i>
-
-      <div class="icons">
-        <i class="far fa-map-marker-minus">Madrid,Spain</i><br>
-        <i class="fal fa-envelope">@hotmail.com</i>
+      <h4><a name="contactInfo">Contact </a></h4>
+      <div class="icons1">
+        <ion-icon name="logo-linkedin" size=large><link rel="linkedinpage"href=""></ion-icon>
+        <a rel="githubpage" href="https://github.com/hgihliugi"><ion-icon name="logo-github" size=large></ion-icon></a>
       </div>
+
+      <p>This website has been made in a responsive way using HTML,CSS and JS.</p>
+      <div class="icons">
+        <ion-icon name="location-outline" size=large></ion-icon>
+        <p>Madrid,Spain</p>
+        <br>
+        <ion-icon name="mail-outline" size=large></ion-icon>
+        <p>@hotmail.com</p>
+      </div>
+
     
     </div>
   </section>

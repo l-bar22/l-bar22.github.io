@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman';
 }
 .header{
     min-height: 100vh;
@@ -15,6 +16,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    font-style: bold;
 }
 nav img{
     width: 150px;
@@ -22,18 +24,22 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    font-style: bold;
+
 
 }
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 12px;
+    
     
 
 }
@@ -101,8 +107,55 @@ nav . fa{
     .nav-links ul{
         padding: 30px;
     }
-  
+    
+ 
+    
 }
+
+.aboutMe1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.aboutMe{
+    
+    background-image:url("/home/laura/Desktop/Website/images/frontpage2.jpg"); 
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: cover;     
+    overflow:hidden;
+    padding:100px 0;
+
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.p{
+    font-size: 13px;
+    line-height: start;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
 .projects{
     width: 80%;
     margin: auto;
@@ -143,53 +196,17 @@ h3{
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-@media(max-width::700px){
-    .row{
-        flex-direction: column;
-    }
-}
 
-.aboutMe{
-    background-image:url("/home/laura/Desktop/Website/images/frontpage2.jpg"); 
-    background-color: #cccccc; 
-    height: 500px; 
-    background-position: left; 
-    background-repeat: no-repeat; 
-    background-size: cover;     
-    overflow:hidden;
-    padding:100px 0;
 
-}
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
-
-}
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-}
-.p{
-    font-size: 13px;
-    line-height: start;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-.skills{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
-}
 .contactinfo{
     margin-top: auto;
     background-color: black;
 }
 .cinfo{
+    margin-top: 40px;
+    background-color: black;
     align-content:center;
+    color: white ;
 
 }
 .cinfo h4{
@@ -199,14 +216,18 @@ h3{
 }
 .cinfo p{
     text-align: center;
+    color: white ;
 
-}
-.fab fa-linkedin{
-    display: flex;
-    align-items: center;
-    justify-content: center
 }
 .icons{
     text-align: center;
 }
+.icons1{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
 
