@@ -111,7 +111,6 @@ nav . fa{
  
     
 }
-
 .aboutMe1{
     min-height: 100vh;
     display: flex;
@@ -119,6 +118,7 @@ nav . fa{
     justify-content: center;
     background-color: white;
 }
+
 .aboutMe{
     
     background-image:url("/home/laura/Desktop/Website/images/frontpage2.jpg"); 
@@ -156,6 +156,30 @@ nav . fa{
     font-size: 13px;
 }
 
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding:80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .aboutMe1{
+        background-size: 100%;
+        padding: 100px 40px;
+
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .aboutMe{
+        padding: 0;
+
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
 .projects{
     width: 80%;
     margin: auto;
@@ -195,6 +219,11 @@ h3{
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width:700px){
+    .row{
+        flex-flow:column;
+    }
 }
 
 
