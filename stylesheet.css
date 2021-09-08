@@ -3,14 +3,7 @@
     padding: 0;
     font-family: 'Poppins';
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/home/laura/Desktop/Website/images/frontpage2.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
+/* ----Header ----*/
 /* ----This is nav menu----*/
 .navbar{
     position: fixed;
@@ -58,7 +51,16 @@ ul li a{
     font-weight: bold;
     
 }
-/* ----Header text----*/
+/* ----Header 2----*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/home/laura/Desktop/Website/images/frontpage2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .text-box{
     margin-top: 80px;
     text-align: center;
