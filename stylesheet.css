@@ -193,9 +193,11 @@ img{
 }
 .contactInfo{
     min-width: 40%;
+    
 }
 .contactInfoBx{
     position: relative;
+    
 }
 .contactInfoBx .box{
     position: relative;
@@ -224,3 +226,4 @@ img{
     color: #2196f3;
     margin-bottom: 0;
 }
+/*Responsive*/
