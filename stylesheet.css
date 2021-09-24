@@ -1,320 +1,133 @@
-*{
+{
     margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
+    padding:0;
+    font-family:
 }
-/* ----Header ----*/
-/* ----This is nav menu----*/
-.navbar{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #d4d7de;
-    width: 100%;
-    height: 70px;
-    z-index: 1;
-    
+section{
+    padding: 100px;
 }
-.nav{
-    display: flex;
-    justify-content: r;
-    list-style: none;
-    margin-right: 15%;
-}
-.logo{
-   flex: 1 1 auto;
-   margin-left: 10%;
-   text-transform: uppercase;
-   letter-spacing:1px;
-   font-weight: bold;
-   font-size: 35px;
-}
-.a{
-    margin: 15px;
-    color: #000;
-}
-.a:hover{
-    color: #000;
-}
-.nav ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 50%;
-    margin-left: auto;
-    
-}
-ul li{
-    padding: 20px;
-    list-style: none;
-    text-align: right;
-}
-ul li a{
-    color: #fff;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    
-}
-/* ----Header 2----*/
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/home/laura/Desktop/Website/images/frontpage2.jpg);
-    background-position: center;
-    background-size: cover;
+.banner{
     position: relative;
-}
-
-.text-box{
-    margin-top: 80px;
-    text-align: center;
-    color:white
-
-}
-.p{
-    text-justify: auto;
-    color: white;
-}
-/* ----About me section----*/
-
-.aboutMe1{
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
-
-.aboutMe{
-    
-    background-image:url("/home/laura/Desktop/Website/images/frontpage2.jpg"); 
-    background-color: #cccccc; 
-    height: 500px; 
-    background-position: left; 
-    background-repeat: no-repeat; 
-    background-size: cover;     
-    overflow:hidden;
-    padding:100px 0;
-
-}
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
-
-}
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-}
-.p{
-    font-size: 13px;
-    line-height: start;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-.skills{
+    background: url(/home/laura/Desktop/Website/images/frontpage.jpg)
+    background-size: cover;
+    background-position:right;
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
+    align-items:center;
 }
-/* ----Projects section----*/
-.projects{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-h1{
-    font-size: 36px;
-    font-weight: 600;
-}
-p{
+.banner h2{
+    font-size: 3em;
     color: black;
-    font-size: 14px;
-    font-weight: 300px;
-    line-height: 22px;
-    padding: 10px;
+    font-weight: 500;
+    line-height: 1.5em;
 }
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between ;
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
 }
-.course-col{
-    flex-basis: 31%;
-    background: blanchedalmond;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding:20px 12px ;
-    box-sizing: border-box;
-    transition: 0.5s;
+.banner h3{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
 }
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-
-}
-.course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-/* ----Services-section----*/
-.services-section{
-    background:#000 ;
-    background-size: cover;
-    padding: 60px 0;
-}
-.inner-width{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
-    overflow: hidden;
-}
-.section-title{
-    text-align: center;
-    color: #ddd;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-.border{
-    width: 160px;
-    height: 2px;
-    background: #82ccdd;
-    margin: 40px auto;
-}
-.services-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.service-box{
-    max-width: 33.33%;
-    padding: 10px;
-    text-align: center;
-    color: #ddd;
-    cursor: pointer;
-}
-.service-icon{
+.btn{
+    position: relative;
+    background: #2196f3;
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    border: 3px solid #82ccdd;
-    color: #82ccdd;
-    transform: rotate(45deg);
-    margin-bottom: 30px;
-    margin-top: 16px;
-}
-.service-icon i{
-    line-height: 70px;
-    transform: rotate(-45deg);
-    font-size: 26px;
-}
-.service-box:hover .service-icon{
-    background: #82ccdd;
-    color: #ddd;
-}
-.section-title{
+    color: blanchedalmond;
+    margin-top: 20px;
+    padding: 10px 30px;
     font-size: 18px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo{
+    color: brown;
+    font: size 24px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: brown;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+.heading h2{
+    font-weight: 600;
+    font: size 30px; ;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.contentBx h3{
+    font-size: 24px;
     margin-bottom: 10px;
 }
-.service-desc{
-    font-size: 14px;
+.w50{
+    min-width: 50%;
 }
-@media screen and(max-width:960px){
-    .service-box{
-        max-width: 45%;
-    }
+img{
+    max-width: 100%;
 }
-@media screen and(max-width:768px){
-    .service-box{
-        max-width: 50%;
-    }
-}
-@media screen and(max-width:480px){
-    .service-box{
-        max-width: 100%;
-    }
-}
-/* ----Contact info section----*/
-
-footer{
+.services{
     background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
+}
+.heading.white{
     color: #fff;
 }
-.footer-content{
+.services .content{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
     text-align: center;
+    transition: 0.5s;
 }
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+.services .content .servicesBx:hover{
+    background: #2196f3;
 }
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: #fff;
-
+.services .content .servicesBx img{
+    max-width: 80px;
+    filter: invert(1);
 }
-.footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.socials{
-    list-style: none;
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-    
-}
-.socials .li{
-    margin: 0 10 px;
-}
-.socials .a{
-    text-decoration: none;
-    color: #fff;
-}
-.socials .a .i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
-    
-}
-.socials a:hover .i{
-    color: aqua;
-}
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    color: #fff;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-
+.services .content .servicesBx h2{
+    font-size: 20px;
+    font: weight 600 ;
 }
