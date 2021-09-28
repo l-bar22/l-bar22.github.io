@@ -98,7 +98,7 @@ header ul li a{
     background-color: #f1f1f1;
 }
 .about-section{
-    background: url(/home/laura/Desktop/Website/images/aboutme.jpg) no-repeat left;
+    background: url(../laura-barahona22.github.io/images/aboutme.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -197,14 +197,21 @@ header ul li a{
 }
 .project .content{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+
 }
 .project .content .workBx{
-    width: 50%;
+    margin-right: 10%;
+    margin-left: 20%;
+    width: 100%;
     padding: 20px;
+    align-items: center;
 }
 .project .content .workBx img{
-    max-width: 100%;
+  height: 240px;
+  width: 240px;
+  align-content: center;
+  
 }
 /*Contactsection*/
 .content1{
