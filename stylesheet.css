@@ -10,7 +10,7 @@ section{
 .banner{
     position: relative;
     min-height: 100vh;
-    background-image:url(/home/laura/Desktop/Website/images/frontpage2.jpg );
+    background-image:url(../laura-barahona22.github.io/images/frontpage2.jpg );
     background-size: cover;
     background-position:right;
     display: flex;
@@ -214,6 +214,8 @@ header ul li a{
   
 }
 /*Contactsection*/
+
+/*Contactsection*/
 .content1{
     position: relative;
     margin: 130px auto;
@@ -235,6 +237,7 @@ header ul li a{
     bottom: 0px;
     width: 100%;
     background: #111;
+    color: #656565;
   }
   .main-content{
     display: flex;
@@ -278,12 +281,14 @@ header ul li a{
     padding: 0 2px;
   }
   .left .content .social a span{
-    height: 40px;
-    width: 40px;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 80%;
+    width: 80%;
     background: #1a1a1a;
     line-height: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 40px;
     border-radius: 5px;
     transition: 0.3s;
   }
@@ -291,7 +296,7 @@ header ul li a{
     background: #f12020;
   }
   .center .content .icon{
-    font-size: 1.4375rem;
+    font-size: 18px;
     background: #1a1a1a;
     height: 45px;
     width: 45px;
@@ -305,7 +310,7 @@ header ul li a{
     background: #f12020;
   }
   .center .content .text{
-    font-size: 1.0625rem;
+    font-size: 14px;
     font-weight: 500;
     padding-left: 10px;
   }
@@ -329,7 +334,7 @@ header ul li a{
   }
   .right form input:focus,
   .right form textarea:focus{
-    outline-color: #3498db;
+    outline-color: #86a3b6;
   }
   .right form input{
     height: 35px;
