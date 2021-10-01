@@ -201,21 +201,22 @@ header ul li a{
 }
 /*Projectsection*/
 #projects .projects {
-  height: 40%;
-	margin: 0 ;
-	padding: 5px 0;
+  height: 30%;
 }
 #projects .projects-header h2 {
 	margin-bottom: 10px;
+  
   color: #485563;
-  align-content: center;
+  
+  text-align: center;
 }
+
 #projects .all-projects {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-  height: 2000px;
+  height: 1200px;
 }
 #projects .project-item {
 	display: flex;
