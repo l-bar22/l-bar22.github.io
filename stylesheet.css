@@ -32,9 +32,9 @@ section{
     color: black;
     font-weight: 500;
 }
-.btn{
+.btn1{
     position: relative;
-    background: #2196f3;
+    background: #4e494d;
     display: inline-block;
     color: blanchedalmond;
     margin-top: 20px;
@@ -43,8 +43,12 @@ section{
     text-transform: uppercase;
     text-decoration: none;
 }
+.btn1 button:hover{
+  background: #86a3b6;
+}
 /*NavigationMenu*/
 header{
+    height: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -57,7 +61,7 @@ header{
     background:#B7B7A4;
 }
 header .logo{
-    color: #A5A58D;
+    color: #6b705c;
     font: size 24px; 
     text-transform: uppercase;
     text-decoration: none;
@@ -76,7 +80,7 @@ header ul li a{
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    color: #A5A58D;
+    color: #6b705c;
 }
 .heading{
     width: 100%;
@@ -159,10 +163,15 @@ header ul li a{
 }
 /*ServicesSection*/
 .services{
-    background: #111;
+    background: #363535;
+    
 }
 .heading{
     color: #fff;
+}
+.heading h2{
+  margin-bottom: 20px;
+  color: #6b705c;
 }
 .services .content{
     display: flex;
