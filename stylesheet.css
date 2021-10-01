@@ -200,27 +200,67 @@ header ul li a{
     font: weight 600 ;
 }
 /*Projectsection*/
-.project .heading{
-    color: #222;
-    margin-bottom: 50px;
+#projects .projects {
+  height: 40%;
+	margin: 0 ;
+	padding: 5px 0;
 }
-.project .content{
-    display: flex;
-    align-items: center;
-
-}
-.project .content .workBx{
-    margin-right: 10%;
-    margin-left: 20%;
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-}
-.project .content .workBx img{
-  height: 240px;
-  width: 240px;
+#projects .projects-header h2 {
+	margin-bottom: 10px;
+  color: #485563;
   align-content: center;
-  
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  height: 2000px;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: 0;
+	overflow: hidden;
+	
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	overflow: hidden;
+	position: relative;
+  height: 100%;
+}
+
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
 }
 /*Contactsection*/
 
