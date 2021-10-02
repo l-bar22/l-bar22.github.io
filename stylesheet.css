@@ -380,6 +380,13 @@ header ul li a{
 /*Footer*/
 body {
   background: #D0D8DB;
+
+}
+.furtherinfo{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 12px;
 }
 
 textarea {
@@ -405,6 +412,7 @@ vertical-align: -0.200em;
 
 .rounded-social-buttons {
 text-align: center;
+margin-bottom: 60px;
 }
 
 .rounded-social-buttons .social-button {
