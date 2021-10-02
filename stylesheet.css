@@ -446,13 +446,13 @@ font-size: 25px;
 }
 
 .rounded-social-buttons .social-button.facebook {
-background: #3b5998;
+background: #0d0d0e;
 }
 
 .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
-color: #3b5998;
-background: #fefefe;
-border-color: #3b5998;
+color: #0a0a0a;
+background: #fdfcfc;
+border-color: #0c0c0c;
 }
 
 .rounded-social-buttons .social-button.twitter {
