@@ -10,7 +10,7 @@ section{
 .banner{
     position: relative;
     min-height: 100vh;
-    background-image:url(../laura-barahona22.github.io/images/frontpage2.jpg );
+    background-image:url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDIxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position:right;
     display: flex;
@@ -102,7 +102,7 @@ header ul li a{
     background-color: #f1f1f1;
 }
 .about-section{
-    background: url(../laura-barahona22.github.io/images/aboutme.jpg) no-repeat left;
+    background: url(https://images.unsplash.com/photo-1507206130118-b5907f817163?ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDIwfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
